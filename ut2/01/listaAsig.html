@@ -1,45 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba lista de asignaturas</title>
-    <style>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prueba lista de asignaturas</title>
+        <style>
         * {
+            padding: 0;
             margin: 0px;
+            box-sizing: border-box;
         }
-        header,main,footer {
-            background-color: black;
+        body{
+            min-height: 100vh;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+        header,footer{
+            padding: 15px;
             color: white;
+            background-color: black;
+            text-align: center;
         }
-        #sp{
-            color: yellow;
+        header h1{
+            display: inline-block;
+            background-color:seagreen;
+            border-radius: 10px;
+            padding: 5px;
         }
-        #spv2{
-            color: yellowgreen;
+        img{
+            width: 200px;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
         }
     </style>
-</head>
-<body>
-    <header>
-        <h1>Desarrollo de Aplicaciones Web (DAW1)</h1>
-    </header>
-    <main>
-        <ul>        
-            <li>Programación</li>
-            <li>Lenguajes de marcas y sistemas gestores de información <span id="sp">(LMSGI)</span></li>
-            <li>Sistemas informáticos</li>
-            <li>Bases de datos</li>
-            <li>Inglés</li>
-            <li>Itinerario personal para la empleabilidad <span id="spv2">(IPE)</span></li>
-            <li>Ciudadanía e identidad digital</li>
-            <li>Entornos de desarrollo</li>
-        </ul>
-        <br>
-        <br>
-    </main>
-    <footer>
-        <address>Álvaro Calderón Pérez</address>
-    </footer>
-</body>
+    </head>
+    <body>
+        <header>
+            <h1>CFGS DAW</h1>
+            <h2>Primer curso</h2>
+        </header>
+        <main>
+            <section class="sidecontent">
+                <h3>Sobre el curso</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Assumenda adipisci exercitationem facere vero voluptates
+                    repellat in ea nam asperiores? Molestias sint repellat ab
+                    aperiam beatae tempore ea optio nulla cupiditate!
+                </p>
+            </section>
+            <section class="content">
+                <figure>
+                    <img src="../04/images/logo_sauces.png" alt="logo del ies">
+                    <figcaption>ESO,Bachillerato y Ciclos Formativos</figcaption>
+                </figure>
+                <ul>
+                    <h3>Asignaturas de 1ª Curso</h3>
+                    <li>Programación</li>
+                    <li>Lenguajes de marcas y sistemas gestores de información
+                        <span id="sp">(LMSGI)</span></li>
+                    <li>Sistemas informáticos</li>
+                    <li>Bases de datos</li>
+                    <li>Inglés</li>
+                    <li>Itinerario personal para la empleabilidad <span
+                            id="spv2">(IPE)</span></li>
+                    <li>Ciudadanía e identidad digital</li>
+                    <li>Entornos de desarrollo</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <address>Álvaro Calderón Pérez</address>
+        </footer>
+    </body>
 </html>
