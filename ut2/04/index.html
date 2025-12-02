@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ut2.4 Álvaro Calderón Pérez</title>
+    <title>Ut2 04 Álvaro Calderón Pérez</title>
+    <link rel="icon" type="image/jpg" href="/webroot/favicon/logo_BC.jpg">
     <style>
         *{
             margin: 0;
@@ -11,11 +12,16 @@
             text-align: center;
         }
         img{
-            width:10% ;
+            width:9% ;
         }
-        table {
+        article table{
+            margin-left: 30%;
             border-collapse: collapse;
-            margin-left: 28%;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(90, 89, 89, 0.575);
+            box-sizing: border-box;
         }
         th,td {
             border: 1px solid black;
@@ -26,25 +32,48 @@
         }
         ul{
             list-style: none;
-            display: flex;
-            gap: 100px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
             padding: 10px;
             margin-left: 5%;
+            justify-content: space-between;
+        }
+        ul li a{
+            padding: 5px;
+            box-sizing:content-box;
+            border: 1px solid white;
+            background-color: rgba(131, 128, 128, 0.548);
+            color: white;
+            text-decoration: none;
         }
         header{
-            background-color: lightcyan;
+            background-color: black;
+            max-height: 380px;
+        }
+        h1{
+            color: white;
         }
         h2{
-            background-color: lightseagreen;
+            background-color: black;
+            color: white;
             margin: 10px;
         }
-        footer{
+        .pie_pag_fin{
+            background-color: black;
+            color: white;
             margin: 20px;
-            text-decoration: dashed;
+            padding: 30px;
+        }
+        footer{         
+            margin: 20px;
         }
         td:hover{
-            background-color:lightcyan;
+            background-color:rgba(211, 211, 211, 0.651);
         }
+        #vali{
+            color: white;
+        }   
     </style>
 </head>
 <body>
@@ -934,8 +963,10 @@
             </article>         
         </section>
     </main>
-    <footer>
+    <footer class="pie_pag_fin">
         <address>2025-2025 Todos los derechos reservados. Álvaro Calderón Pérez</address>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2Fut2%2F04%2Findex.html" id="vali">Web validada</a>
+        <p>Última vez modificado:<time datetime="2025-11-27">2025-11-27</time></p>
     </footer>
 </body>
 </html>

@@ -64,7 +64,6 @@ main {
 
 .sidecontent {
     background-color: lightcyan;
-
     border-radius: 10px;
     margin: 15px;
     padding: 15px;
@@ -81,4 +80,7 @@ figure img {
 
 .hardware img, .software img{
     margin-right: 30px;
+}
+#vali{
+    color: white;
 }

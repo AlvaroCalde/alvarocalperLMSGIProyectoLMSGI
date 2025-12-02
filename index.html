@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Álvaro Calderón Pérez</title>
+    <title>LMSGI- Álvaro Calderón Pérez</title>
+    <link rel="icon" type="image/jpg" href="/webroot/favicon/logo_BC.jpg">
     <style>
         *{
             margin: 0;
@@ -11,27 +12,51 @@
         }
         header{
             color: orange;
-            background-color: #3D3C38;
+            background-color: rgba(29, 29, 29, 0.897);
             text-align: center;
-            padding: 20px;
+            padding: 40px;
         }
         h1,footer{
             text-align: center;
             color: white;
             background-color: black;
+            padding: 20px;
         }
         div{
             text-align: center;
             margin-bottom: 50px;
             display: grid;
         }
-        .UD1,.UD2{
+        div div{
+            outline: 2px solid transparent;
+            outline-offset: 3px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            max-width: 400px;
+        }
+        div div:hover{
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            border-color: black;
+        }
+        div div img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .UD1,.UD2,.UD3,.UD4,.UD5,.UD6{
             display: grid;
             grid-template-columns: auto auto auto;
             padding: 5px;
-            gap: 10px;
+            margin-left: 20px;
         }
-        .UD1 div, .UD2 div{
+        .UD2 div img{
+            max-height: 200px;
+        }
+        .UD2 div{
+            height: 200px;
+        }
+        div div{
             box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
             border-radius: 10px;
             box-sizing: border-box;
@@ -39,22 +64,51 @@
         img{
             width: 350px;
         }
-
         footer a img{
             width: 50px;
+        }
+        #vali{
+            color: white;
+        }
+        ul{
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 30px;
+            padding: 10px;
+            margin-left: 5%;
+            margin-top: 3%;
+            justify-content: space-between;
+        }
+        ul li a{
+            padding: 5px;
+            box-sizing:content-box;
+            background-color: rgba(61, 61, 61, 0.664);
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <header>
         <p>ÁLVARO CALDERÓN PÉREZ</p>
+        <nav>
+            <ul>
+                <li><a href="#1">Unidad 1</a></li>
+                <li><a href="#2">Unidad 2</a></li>
+                <li><a href="#3">Unidad 3</a></li>
+                <li><a href="#4">Unidad 4</a></li>
+                <li><a href="#5">Unidad 5</a></li>
+                <li><a href="#6">Unidad 6</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
             <h1>Unidad 1</h1>
-            <div class="UD1"> 
+            <div class="UD1" id="1"> 
                 <div>
-                    <a href="/ut1/01/Clasificación de los lenguajes de marcas.png">
+                    <a href="/ut1/01/Clasificación_de_los_lenguajes_de_marcas.png">
                     <img src="/webroot/images/ut01_01.png" alt="ut1 01"></a>
                     <p>01</p>
                 </div>
@@ -68,21 +122,16 @@
         
         <section>
             <h1>Unidad 2</h1>
-            <div class="UD2">
+            <div class="UD2" id="2">
                 <div>
                     <a href="/ut2/01/listaAsig.html">
-                    <img src="/webroot/images/ut02_01.png" alt="ut2 01.1"></a>
-                    <p>01.1</p>
-                </div>
-                <div>
-                    <a href="/ut2/01/index.html">
-                    <img src="/webroot/images/ut2_01.2.png" alt="ut2 01.2"></a>
-                    <p>01.2</p>
+                    <img src="/webroot/images/ut02_01.png" alt="ut2 01"></a>
+                    <p>01</p>
                 </div>
                 <div>
                     <a href="/ut2/02/index.html">
-                    <img src="/webroot/images/ut2_02.png" alt="ut2 02"></a>
-                    <p>02</p>   
+                    <img src="/webroot/images/ut2_01.2.png" alt="ut2 02"></a>
+                    <p>02</p>
                 </div>
                 <div>
                     <a href="/ut2/03/index.html">
@@ -99,15 +148,101 @@
                     <img src="/webroot/images/ut2_05.png" alt="ut2 05"></a>
                     <p>05</p>    
                 </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut2 05"></a>
+                    <p>05</p>    
+                </div>
             </div> 
+        </section>
+        <section>
+            <h1>Unidad 3</h1>
+            <div class="UD3" id="3"> 
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut3 01"></a>
+                    <p>01</p>
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut3 02"></a>
+                    <p>02</p>   
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut3 03"></a>
+                    <p>03</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Unidad 4</h1>
+            <div class="UD4" id="4"> 
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut4 01"></a>
+                    <p>01</p>
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut4 02"></a>
+                    <p>02</p>   
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut4 03"></a>
+                    <p>03</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Unidad 5</h1>
+            <div class="UD5" id="5"> 
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut5 01"></a>
+                    <p>01</p>
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut5 02"></a>
+                    <p>02</p>   
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut5 03"></a>
+                    <p>03</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Unidad 6</h1>
+            <div class="UD6" id="6"> 
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut6 01"></a>
+                    <p>01</p>
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut6 02"></a>
+                    <p>02</p>   
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut6 03"></a>
+                    <p>03</p>
+                </div>
+            </div>
         </section>
            
     </main>           
     <footer>
         <address>2025-26 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
-        <p>Última vez modificado:<time datetime="2025-11-12">2025-11-12</time></p>
-        <a href="https://github.com/AlvaroCalde"><img src="/webroot/images/github.png"></a>
-        <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png"></a>                         
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2F" id="vali">Web validada</a>
+        <p>Última vez modificado:<time datetime="2025-11-24">2025-11-24</time></p>
+        <a href="https://github.com/AlvaroCalde/alvarocalperLMSGIProyectoLMSGI"><img src="/webroot/images/github.png" alt="enlace a github"></a>
+        <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a>                         
     </footer>
 </body>
 </html>

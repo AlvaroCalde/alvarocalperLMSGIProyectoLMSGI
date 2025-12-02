@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listas.Álvaro Calderón</title>
-    <style>
-        header{
-            background-color: aquamarine;
-            color: white;
-        }
-        img{
-            height: 13%;
-            width: 13%;
-            border: 1px solid black;
-            border-radius: 10px;
-            padding: 10px;
-        }
-        figcaption,figure{
-            text-align: center;
-        }
-        figcaption{
-            background-color: lightseagreen;
-            color: white;
-            padding-top: 5px;
-            padding-bottom: 5px;
-        }
-        figure{
-            border: 2px solid lightseagreen;
-            padding: 10px;
-            margin: 0;
-            border-radius: 10px;
-        }
-        ol{
-            width: 5%;
-            margin:0 auto;
-        }
-        .negrita{
-            font-weight: bold;
-        }
-        address{
-            text-align: center;
-        }
-    </style>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/webroot/CSS/estilos.css" type="text/css">
+        <link rel="stylesheet" href="/webroot/CSS/fonts.css" type="text/css">
+        <link rel="icon" type="image/jpg" href="/webroot/favicon/logo_BC.jpg">
+        <title>Ut2 01.2 Álvaro Calderón</title>  
 </head>
 <body>
     <header>
-        <h1>Listas</h1>
+        <h1>Listas anidadas</h1>
     </header>
     <main>
-        <ol>
-            <li><span class="negrita">Hardware</span>
-                <ul>
-                    <li>Ratón</li>
-                    <li>Pantalla</li>
-                </ul>
-            </li>
-            
-            <li><span class="negrita">Software</span>
-                <ul>
-                    <li>Office365</li>
-                    <li>Visual Studio</li>
-                </ul>  
-            </li>
-        </ol>
+        <div class="sidecontent">
+            <div>
+                <h2>Definición de listas multinivel o anidadas</h2>
+                <p>
+                    Una lista multinivel es caundo en un elemento de una lista, tiene otra lista
+                    Sirve para organizar informacion de forma jerárquica. Ejemplo:
+                </p>
+            </div>
+            <ol>
+                <li>
+                    <p><b>Hardware</b></p>
+                    <ul>
+                        <li>Ratón</li>
+                        <li>Pantalla</li>
+                        <li>Ordenador</li>
+                        <li>Impresora</li>
+                        <li>Plotter</li>
+                    </ul>
+                </li>
+                <li>
+                    <p><b>Software</b></p>
+                    <ul>
+                        <li>Office365</li>
+                        <li>Visual Studio Code</li>
+                        <li>Windows 11</li>
+                        <li>NetBeans</li>
+                        <li>Google Chrome</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div class="content">
+            <div>
+                <h2>Galeria de fotos</h2>
+                <p>Nuestro blog sobre diferentes componentes</p>
+            </div>
+            <h3>Hardware</h3>
+            <figure class="hardware">
+                <img src="/webroot/images/raton.jpg" alt="Un raton de ordenador">
+                <img src="/webroot/images/pantalla.jpg" alt="Una pantalla de ordenador">
+                <img src="/webroot/images/ordenador.jpg" alt="Un ordenador">
+                <img src="/webroot/images/impresora.webp" alt="Un dibujo de una impresora">
+                <img src="/webroot/images/plotter.webp" alt="Un dibujo de un plotter">
+            </figure>
+            <h3>Software</h3>
+            <figure class="software">
+                <img src="/webroot/images/office365.png" alt="Office365">
+                <img src="/webroot/images/visual.jpg" alt="Visual Studio Code">
+                <img src="/webroot/images/windows11.jpg" alt="windows11">
+                <img src="/webroot/images/netbeans.jpg" alt="NetBeans">
+                <img src="/webroot/images/chrome.png" alt="Google Chrome">
+            </figure>
+        </div>
     </main>
-    <figure>
-        <img src="images/ratón.jpg" alt="Ratón de ordenador">  
-        <img src="images/pantalla.jpg" alt="Pantalla de ordenador">      
-        <img src="images/office.jpg" alt="Logo de Office365">
-        <img src="images/vscode.jpg" alt="Logo de Visual Studio Code">
-        <figcaption><b>Tecnologías</b></figcaption>
-    </figure>
     <footer>
-        <address>Copyright. Álvaro Calderón Pérez</address>
-        
-    </footer>
+            <address>2025-26 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2Fut2%2F02%2Findex.html" id="vali">Web validada</a>
+            <p>Última vez modificado:<time datetime="2025-11-24">2025-11-24</time></p>
+        </footer>
+
+
 </body>
 </html>

@@ -1,3 +1,5 @@
+GRAPHML
+
 <?xml version="1.0" encoding="UTF-8"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -42,6 +44,8 @@
   </graph>
 </graphml>
 
+HTML
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -54,6 +58,8 @@
 </body>
 </html>
 
+MarkDown
+
 # Ejemplo 3 Acceso a elementos
  > Mediane un script escribe en consola los siguientes datos, teniendo en cuenta que primer hay que seleccionar y luego escribir el valor con sonole.log()
 > 
@@ -61,9 +67,13 @@
 1. Imprime el númeo de nodos hijos del elemento <body>
 2. Imprime la lista de nodos hijos del <body>
 
+SVG
+
 <svg xmlns="http://www.w3.org/2000/svg">
     <ellipse rx="1000" ry="1000" fill="aliceblue"/>
 </svg>
+
+XML
 
 <prueba>
     <saludo>Hola</saludo>
