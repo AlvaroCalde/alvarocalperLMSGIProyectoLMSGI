@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ut2-08 Álvaro Calderón Pérez</title>
+    <link rel="icon" type="image/gif" href="/ut2/08/favicon/icons8-favicon.gif">
+    <style>
+        main{
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: 250px repeat(3,2fr);
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            margin-bottom: 100px;
+        }
+        header{
+            grid-column: 1/4;
+            text-align: center;
+        }
+        figure{
+            display: inline-block;
+            margin: 3px;
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        figure img{
+            border-radius: 5px;
+        }
+        figcaption{
+            width: 300px;
+        }
+        .fecha{
+            color: rgb(100, 100, 100);
+            font-size: small;
+        }
+        aside{
+            grid-row: 1/4;
+        }
+        img{
+            width: 300px;
+        }
+        footer a img{
+            width: 50px;
+        }
+        footer{
+            grid-column: 1/4;
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 20px;
+        }
+        #vali{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maquetación con grid</h1>
+        <h2>Vamos a aprender!</h2>
+    </header>
+    <main>
+        <aside>
+            <nav>
+                <div><b>Inicio</b></div>
+                <div>Galería</div>
+                <div>Productos</div>
+                <div>Clientes</div>
+                <div>Sobre nosotros</div>
+                <div>Contacto</div>
+            </nav>
+        </aside>
+        <div>
+            <figure>
+                <img src="/ut2/08/images/1.jpg" alt="imagen1">
+                <figcaption>
+                    Proyectos de vehículo autónomo: 12 pasajeros ningún conductor<br>
+                    <span class="fecha">20 marzo 2025</span>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="/ut2/08/images/2.jpg" alt="imagen2">
+                <figcaption>
+                    Reciclarse y obtener 12 puntos, todo en uno<br>
+                    <span class="fecha">30 marzo 2025</span>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="/ut2/08/images/3.jpg" alt="imagen3">
+                <figcaption>
+                    ¡Alerta! Los ciberdelincuentes no descansan<br>
+                    <span class="fecha">30 marzo 2025</span>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="/ut2/08/images/4.jpg" alt="imagen4">
+                <figcaption>
+                    Examen teórico: la importacia de conocer el riesgo<br>
+                    <span class="fecha">20 marzo 2025</span>
+                </figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="/ut2/08/images/5.jpg" alt="imagen5">
+                <figcaption>
+                    La cara B del turismo "on the road"<br>
+                    <span class="fecha">20 marzo 2025</span>
+                </figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <address>2025-26 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2Fut2%2F07%2Findex.html" id="vali">Web validada</a>
+        <p>Última vez modificado:<time datetime="2025-12-05">2025-12-05</time></p>
+        <a href="https://github.com/AlvaroCalde/alvarocalperLMSGIProyectoLMSGI"><img src="/webroot/images/github.png" alt="enlace a github"></a>
+        <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a>                         
+    </footer>
+</body>
+</html>

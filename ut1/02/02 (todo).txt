@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+  <!-- Definición de atributos para los nodos -->
+  <key id="d0" for="node" attr.name="color" attr.type="string"/>
+  <key id="d1" for="node" attr.name="size" attr.type="int"/>
+
+  <!-- Definición de atributos para las aristas (edges) -->
+  <key id="d2" for="edge" attr.name="weight" attr.type="double"/>
+
+  <!-- El grafo principal -->
+  <graph id="G" edgedefault="undirected">
+
+    <!-- Nodos -->
+    <node id="n0">
+      <data key="d0">red</data>
+      <data key="d1">10</data>
+    </node>
+    <node id="n1">
+      <data key="d0">blue</data>
+      <data key="d1">15</data>
+    </node>
+    <node id="n2">
+      <data key="d0">green</data>
+      <data key="d1">12</data>
+    </node>
+
+    <!-- Aristas (conexiones entre nodos) -->
+    <edge id="e0" source="n0" target="n1">
+      <data key="d2">1.5</data>
+    </edge>
+    <edge id="e1" source="n0" target="n2">
+      <data key="d2">2.0</data>
+    </edge>
+    <edge id="e2" source="n1" target="n2">
+      <data key="d2">0.8</data>
+    </edge>
+
+  </graph>
+</graphml>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Prueba de html
+</body>
+</html>
+
+# Ejemplo 3 Acceso a elementos
+ > Mediane un script escribe en consola los siguientes datos, teniendo en cuenta que primer hay que seleccionar y luego escribir el valor con sonole.log()
+> 
+
+1. Imprime el númeo de nodos hijos del elemento <body>
+2. Imprime la lista de nodos hijos del <body>
+
+<svg xmlns="http://www.w3.org/2000/svg">
+    <ellipse rx="1000" ry="1000" fill="aliceblue"/>
+</svg>
+
+<prueba>
+    <saludo>Hola</saludo>
+</prueba>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ut2-07 Álvaro Calderón Pérez</title>
+    <link rel="icon" type="image/jpg" href="/webroot/favicon/logo_BC.jpg">
+    <style>
+        header{
+            text-align: center;
+        }
+        h1{
+            color: white;
+            background-color: blue;
+            display: inline;
+            border: 1px solid black;      
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            padding: 3px;
+            box-shadow: 3px 3px 2px rgba(0,0,0,1);
+        }
+        main{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .amarillo,.rosa{
+            margin-bottom: 5%;
+            border: 1px solid black;
+            padding: 5%;
+            width: 1300px;
+        }
+        .rosa{
+            width: 1260px;
+        }
+        .amarilloF,.rosaF{
+            text-align: center;
+        }
+        .amarillo{
+            background-color: rgb(255, 230, 0);
+        }
+        .rosa{
+            background-color: rgb(247, 0, 255);
+        }
+        .amarillo h3{
+            background-color: rgb(84, 210, 210);
+            color: white;
+            display: inline;
+            padding: 0.5%;
+            margin-left: 35%;
+            border: 1px solid black;      
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            box-shadow: 3px 3px 2px rgba(0,0,0,1);
+        }
+        .amarilloF h3{
+            background-color: lime;
+            color: white;
+            display: inline;
+            padding: 0.5%;
+            margin-left: 6%;
+            border: 1px solid black;      
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            box-shadow: 3px 3px 2px rgba(0,0,0,1);
+        }
+        .rosa h3{
+            background-color: lightgreen;
+            color: white;
+            display: inline;
+            padding: 0.5%;
+            margin-left: 35%;
+            border: 1px solid black;      
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            box-shadow: 3px 3px 2px rgba(0,0,0,1);
+        }
+        .rosaF h3{
+            background-color: purple;
+            color: white;
+            display: inline;
+            padding: 0.5%;
+            margin-left: 6%;
+            border: 1px solid black;      
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            box-shadow: 3px 3px 2px rgba(0,0,0,1);
+        }
+        .amarillo h3,.rosaF h3{
+            display: inline-block;
+            transform: rotate(10deg) ;
+        }
+        .amarilloF h3,.rosa h3{
+            display: inline-block;
+            transform: rotate(350deg) ;
+        }
+        table{
+            margin-top: 2%;
+            border-collapse: collapse;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 8px;
+            box-sizing: border-box;
+            border: 1px solid black;
+            
+        }
+        .rosa table{
+            margin-left: 33.5%;
+        }
+        .amarillo table{
+            margin-left: 25%;
+        }
+        th,td {
+            border-bottom: 1px solid black;
+            border-width: 1px 0;
+        }
+        th{
+            margin: 0px;
+            color: white;
+            background-color: green;
+        }
+        td{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        ul{
+            list-style-position: inside;
+            text-align: left;
+            padding: 0px;
+            width: 18%;
+            margin: auto;
+        }
+        b{
+            color: red;
+        }
+        footer a img{
+            width: 50px;
+        }
+        footer{
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 20px;
+        }
+        #vali{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Buenos días campeón!</h1>
+        <h2>Momento de aprovechar el día 🌞</h2>
+    </header>
+    <main>
+        <div class="amarillo">
+            <h3>Programación semanal</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>
+                            Ejercicio
+                            programado
+                        </th>
+                        <th>Tiempo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>Correr</td>
+                        <td>6:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>Natacion</td>
+                        <td>7:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>Ciclismo</td>
+                        <td>6:30 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>Yoga</td>
+                        <td>6:00 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>Pesas</td>
+                        <td>8:00 AM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="rosa">
+            <h3>Últimos 5 ejercicios</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ejercicios</th>
+                        <th>Duración</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Correr</td>
+                        <td>30 min</td>   
+                    </tr>
+                    <tr>
+                        <td>Nadar</td>
+                        <td>45 min</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Ciclismo</td>
+                        <td>60 min</td>
+                    </tr>
+                    <tr>
+                        <td>Yoga</td>
+                        <td>40 min</td>
+                    </tr>
+                    <tr>
+                        <td>Pesas</td>
+                        <td>50 min</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="amarilloF">
+            <h3>Calorías</h3>
+            <p><b>Hoy:</b> 500</p>
+            <p><b>Esta semana:</b> 3500</p>
+            <p><b>Este mes:</b> 14000</p>
+        </div>
+        <div class="rosaF">
+            <h3>Record personales</h3>
+            <ul>
+                <li>Más rápido 5K Correr: 22 min</li>
+                <li>Pesos más pesados: 250 lbs</li>
+                <li>Tabla más larga: 3 min</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <address>2025-26 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2Fut2%2F07%2Findex.html" id="vali">Web validada</a>
+        <p>Última vez modificado:<time datetime="2025-12-03">2025-12-03</time></p>
+        <a href="https://github.com/AlvaroCalde/alvarocalperLMSGIProyectoLMSGI"><img src="/webroot/images/github.png" alt="enlace a github"></a>
+        <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a>                         
+    </footer>
+</body>
+</html>
