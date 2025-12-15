@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1- Álvaro Calderón Pérez</title>
+    <link rel="icon" type="image/png" href="/examen/01/webroot/favicon/favicon-32x32.png">
+    <!--
+        Autor:  Álvaro Calderón Pérez
+        Fecha de modificación: 2025-12-10
+    -->
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            main{
+                background-color: grey;
+            }
+            .todo{
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: 2fr,1fr;
+            }
+            header,nav,footer{
+                background-color: red;
+            }
+            header img{
+                width: 100px;
+            }
+            nav ul{
+                list-style: none;
+                display: grid;
+                grid-template-columns: repeat(5,auto);
+                gap: 20px;
+            }
+            ul li a{
+                padding: 5px;
+                box-sizing:content-box;
+                background-color: red;
+                color: white;
+                text-decoration: none; 
+            }
+            ul li a:hover{
+                background-color: white;
+                color: red; 
+            }
+            .cartelera{
+                display: grid;
+                grid-template-columns: repeat(5,auto);
+                grid-row: 1/2;
+                grid-column: 1/4;
+            }
+            .cartTitulo{
+                text-align: center;
+            }
+            .cartelera div{
+                margin: 10px;
+            }
+            .cartelera div figure{
+                border: 1px solid white;
+            }
+            .cartelera div figure figcaption{
+                background-color: black;
+                border: 1px solid white;
+            }
+            .cartelera div figure img{
+                border: 1px solid white;
+                width: 100%;
+            }
+            .evTitulo{
+                text-align: center;
+            }
+            .eventos{
+                display: grid;
+                grid-template-columns: repeat(2,auto);
+                grid-column: 1/2;
+                margin-left: 10%;
+                align-items: center;
+                margin-left: 0;
+            }
+            .eventos div figure img{
+                width: 100px;
+                height: 300px;
+            }
+            .eventos div figure img{
+                width: 300px;
+            }
+            .eventos h1{
+                text-align: center;
+            }
+            .eventos div h2{
+                margin-left: 15%;
+            }
+            .proxi{
+                grid-column: 2/3;
+            }
+            .proxi ul{
+                list-style-position: inside;
+                text-align: left;
+                padding: 0px;
+
+                margin: auto;
+            }
+            .proxi ul li{
+                color: white;
+            }
+            .trailer{
+                grid-column: 3/4;
+            }
+            figcaption{
+                color: white;
+            }
+            h1,h2{
+                color: white;
+            }
+            .slide img{
+                width: 100%;
+            }
+            footer{
+                text-align: center;
+                color: white;
+            }
+            footer a {
+                text-decoration: none;
+                color: white;
+            }
+            .eventos,.trailer,.proxi{
+                border: 1px solid white;
+            }
+        </style>
+</head>
+<body>
+    <header>
+        <img src="./webroot/logo/logo.png" alt="logo">
+    </header>
+    <main id="inicio">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#cartelera">Cartelera</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#proxi">Próximamente</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="slide">
+            <img src="./webroot/slide/ES_970X250-1.jpg" alt="slide">
+        </div>
+        <div class="cartTitulo">
+                <h1>Cartelera</h1>
+            </div>
+        <div class="todo">
+            
+            <div class="cartelera" id="cartelera">
+                
+                <div>
+                    <figure>
+                        <img src="./webroot/images/BAHIA-WEB.jpg" alt="bahía 1625">
+                        <figcaption>bahía 1625. Jueves 4 de diciembre</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./webroot/images/COARTADAS-CARTELWEB.jpg" alt="coartadas">
+                        <figcaption>Coartadas. Jueves 4 de diciembre</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./webroot/images/dracula-WEB.jpg" alt="dracula">
+                        <figcaption>Dracula. Jueves 4 de diciembre</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./webroot/images/LA-VOZ-DE-HIND-WEB.jpg" alt="la voz de hind">
+                        <figcaption>La voz de Hind. Jueves 4 de diciembre</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="./webroot/images/punales-WEB.jpg" alt="puñales">
+                        <figcaption>Puñales</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="evTitulo">
+                <h1>Eventos</h1>
+            </div>
+            <div class="eventos" id="eventos">
+                
+                <div>
+                    <h2>EVENTOS</h2>
+                    <figure>
+                        <img src="./webroot/eventos/La-Traviata_WEB.jpg" alt="la traviata">
+                        <figcaption>Opera en directo.La traviata.Miércoles 14 de enero a las 19:45</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h2>EVENTOS</h2>
+                    <figure>
+                        <img src="./webroot/eventos/cartel-preventa_RBO_El-Casacanueces.jpg" alt="cascanueces">
+                        <figcaption>Ballet en directo: El cascanueces.Miércoles 10 de diciembre a las 20:15</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="proxi" id="proxi">
+                <h1>Próximamente</h1>
+                <ul>
+                    <li>Avatar</li>
+                    <li>Hamnet</li>
+                    <li>Goonies</li>
+                    <li>Mario Galaxy</li>
+                </ul>
+            </div>
+            <div class="trailer">
+                <h1>Trailers</h1>
+                <img src="./webroot/trailers/ElCascanueves.jpg" alt="imagen trailer el cascanueces">
+            </div>
+        </div>
+        
+    </main>
+    <footer id="contacto">
+        <p>©2025 <a href="https://alvarocalper.ieslossauces.es/">Álvaro Calderón Pérez</a>. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

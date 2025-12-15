@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto- Álvaro Calderón Pérez</title>
+    <link rel="icon" type="image/png" href="/examen/01/webroot/favicon/favicon-32x32.png">
+    <!--
+        Autor:  Álvaro Calderón Pérez
+        Fecha de modificación: 2025-12-10
+    -->
+    <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            main{
+                background-color: grey;
+            }
+            .formulario{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            header,nav,footer{
+                background-color: red;
+            }
+            header img{
+                width: 100px;
+            }
+            nav{
+                height: 30px;
+            }
+            nav ul{
+                list-style: none;
+                display: grid;
+                grid-template-columns: repeat(5,auto);
+                gap: 20px;
+            }
+            ul li a{
+                padding: 5px;
+                box-sizing:content-box;
+                background-color: red;
+                color: white;
+                text-decoration: none; 
+            }
+            ul li a:hover{
+                background-color: white;
+                color: red; 
+            }
+            footer{
+                text-align: center;
+                color: white;
+                padding: 10px;
+            }
+            footer a {
+                text-decoration: none;
+                color: white;
+            }
+            h1{
+                color: white;
+                text-align: center;
+            }
+            form{
+                padding: 20px;
+                border-radius: 8px;
+                box-sizing: border-box;
+            }
+            label{
+                color: white;
+            }
+            input[type="text"]{
+                background-color: black;
+                border-bottom: 1px solid red;
+                width: 100%;
+                margin-bottom: 5%;
+            }
+            input[type="submit"]{
+                background-color: red;
+                color: white;
+                padding: 8px 16px;
+                width: 100%;
+                border: none;
+                margin-bottom: 5%;
+            }
+            .formulario{
+                display: grid;
+                grid-template-rows: 1fr auto;
+            }
+    </style>
+</head>
+<body id="contacto">
+    <header>
+        <img src="./webroot/logo/logo.png" alt="logo">
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="./index.html#inicio">Inicio</a></li>
+                <li><a href="./index.html#cartelera">Cartelera</a></li>
+                <li><a href="./index.html#eventos">Eventos</a></li>
+                <li><a href="./index.html#proxi">Próximamente</a></li>
+                <li><a href="./index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="formulario">
+            <h1>Qué podemos hacer por tí</h1>
+            <form action="mostrar.php" method="get">
+                <div id="principal">
+                    <div>
+                        <label for="nombre">Tu nombre:</label>
+                        <br>
+                        <input id="nombre" name="Tu_nombre" type="text" required maxlength="400">
+                    </div>
+                    <div>
+                        <label for="email">Tu E-mail:</label>
+                        <br>
+                        <input id="email" name="Tu_email" type="text" required maxlength="400"> 
+                    </div>
+                    <div>
+                        <label for="asunto">Asunto</label>
+                        <br>
+                        <input id="asunto" name="Asunto" type="text" maxlength="400"> 
+                    </div>
+                    <div>
+                        <label for="mensaje">Tu mensaje</label>
+                        <br>
+                        <input id="mensaje" name="Tu_mensaje" type="text" required maxlength="4000"> 
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" id="enviar" >
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </main>
+    <footer>
+        <p>©2025 <a href="https://alvarocalper.ieslossauces.es/">Álvaro Calderón Pérez</a>. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
