@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ut3.01- Álvaro Calderón Pérez</title>  
+</head>
+<body>
+    <h1 id="titulo">Trabajando con JavaScript</h1>
+    <p>Párrafo 1</p>
+    <p>Párrafo 2</p>
+    <p>Párrafo 3</p>
+    <button onclick="cambiarColor()">
+        Haz click para cambiar a negro
+    </button>
+    <button onclick="cambiarColor2()">
+        Haz click para volver al color original
+    </button>
+    <script>
+        var b=document.body;
+        b.style.backgroundColor="#f4f4f4";
+        b.style.textAlign="center";
+        var t=document.getElementById("titulo");
+        t.style.color="#666"
+        t.style.fontWeight="bold"
+        t.style.marginBottom="30px"
+        t.style.textTransform="uppercase"
+        var parrafo=document.getElementsByTagName("p")
+        for (let i=0;i<parrafo.length;i++){
+            parrafo[i].style.fontSize="20px"
+            parrafo[i].style.padding="5px"
+        }
+        parrafo[0].style.color="#e74c3c"
+        parrafo[0].style.backgroundColor="#ffe6e6"
+        parrafo[0].style.border="5px solid #c0392b"
+        parrafo[1].style.color="#2ecc71"
+        parrafo[1].style.backgroundColor="#eaffea"
+        parrafo[1].style.border="5px solid #27ea60"
+        parrafo[2].style.color="#3498db"
+        parrafo[2].style.backgroundColor="#e6f2ff"
+        parrafo[2].style.border="5px solid #2980b9"
+
+        function cambiarColor(){
+            var cu=document.body.style.backgroundColor="black"
+            t.style.color="#ffff"
+
+        }
+        function cambiarColor2(){
+            var cu=document.body.style.backgroundColor="#f4f4f4"
+            t.style.color="#666"
+        }
+    </script>
+</body>
+</html>

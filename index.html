@@ -44,7 +44,7 @@
             object-fit: cover;
             border-radius: 10px;
         }
-        .UD1,.UD2,.UD3,.UD4,.UD5,.UD6{
+        .UD1,.UD2,.UD3,.UD4,.UD5,.UD6,.UD7,.EXA{
             display: grid;
             grid-template-columns: auto auto auto;
             padding: 5px;
@@ -76,7 +76,7 @@
         ul{
             list-style: none;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: repeat(4, 1fr);
             gap: 30px;
             padding: 10px;
             margin-left: 5%;
@@ -103,6 +103,8 @@
                 <li><a href="#4">Unidad 4</a></li>
                 <li><a href="#5">Unidad 5</a></li>
                 <li><a href="#6">Unidad 6</a></li>
+                <li><a href="#7">Unidad 7</a></li>
+                <li><a href="#EXA">Exámenes</a></li>
             </ul>
         </nav>
     </header>
@@ -167,8 +169,8 @@
             <h1>Unidad 3</h1>
             <div class="UD3" id="3"> 
                 <div>
-                    <a href="/error/error.html">
-                    <img src="/webroot/images/prox.jpg" alt="ut3 01"></a>
+                    <a href="/ut3/01/index.html">
+                    <img src="/webroot/images/ut3-01.png" alt="ut3 01"></a>
                     <p>01</p>
                 </div>
                 <div>
@@ -243,14 +245,57 @@
                 </div>
             </div>
         </section>
-           
+        <section>
+            <h1>Unidad 7</h1>
+            <div class="UD7" id="7"> 
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut7 01"></a>
+                    <p>01</p>
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut7 02"></a>
+                    <p>02</p>   
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut7 03"></a>
+                    <p>03</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Exámenes</h1>
+            <div class="EXA" id="exam"> 
+                <div>
+                    <a href="/examen/01/index.html">
+                    <img src="/webroot/images/examen01.png" alt="Examen 01"></a>
+                    <p>01</p>
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut6 02"></a>
+                    <p>02</p>   
+                </div>
+                <div>
+                    <a href="/error/error.html">
+                    <img src="/webroot/images/prox.jpg" alt="ut6 03"></a>
+                    <p>03</p>
+                </div>
+            </div>
+        </section>
     </main>           
     <footer>
         <address>2025-26 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2F" id="vali">Web validada</a>
-        <p>Última vez modificado:<time datetime="2025-12-03">2025-12-03</time></p>
+        <p>Última vez modificado:<time datetime="2026-01-16">2026-01-16</time></p>
         <a href="https://github.com/AlvaroCalde/alvarocalperLMSGIProyectoLMSGI"><img src="/webroot/images/github.png" alt="enlace a github"></a>
-        <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a>                         
+        <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a>   
+        <a type="application/rss" href="/rss/rss.xml">
+            <img src="/webroot/images/rss_imagen.png" alt="imagen rss">
+        </a>   
+        <a href="https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Falvarocalper.ieslossauces.es%2Frss%2Frss.xml"><img src="/webroot/images/rss_valid.png" alt="RSS válido" style="width: 6%;"></a>                   
     </footer>
 </body>
 </html>

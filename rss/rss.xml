@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://alvarocalper.ieslossauces.es/rss/rss.xml" rel="self" type="application/rss+xml" />
+        <title>ÁCP- LMSGI</title>
+        <link>https://alvarocalper.ieslossauces.es/</link>
+        <description><![CDATA[ Web de LMSGI de Álvaro Calderón Pérez]]></description>
+        <!-- 
+        <copyright></copyright>
+
+        <language></language>
+
+        <category></category>
+
+        <skipDays>
+            <day></day>
+        </skipDays>
+
+        <skipHours>
+            <hour></hour>
+        </skipHours>
+        
+        <lastBuildUpdate></lastBuildUpdate>
+
+        <image>
+            <link></link>
+            <title></title>
+            <url></url>
+        </image>
+        -->
+        
+
+        <item>
+            <title>Ud1.1 Mapa conceptual</title>
+            <description>Mapa conceptual de los lenguajes de marcas</description>
+            <link>https://alvarocalper.ieslossauces.es/ut1/01/Clasificaci%C3%B3n_de_los_lenguajes_de_marcas.png</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut1/01/Clasificaci%C3%B3n_de_los_lenguajes_de_marcas.png
+            </guid>
+            <!-- 
+            <enclosure>
+                <source></source>
+                <url></url>
+            </enclosure>
+            -->   
+        </item>
+        <item>
+            <title>Ud1.2 Lenguajes</title>
+            <description>Ejemplos de distintos lenguajes de marcas</description>
+            <link>https://alvarocalper.ieslossauces.es/ut1/02/02(todo).txt</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut1/02/02(todo).txt
+            </guid>
+            <!-- 
+            <enclosure>
+                <source></source>
+                <url></url>
+            </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud2.1 Lista asignaturas</title>
+            <description>Lista de asignaturas con grid</description>
+            <link>https://alvarocalper.ieslossauces.es/ut2/01/listaAsig.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut2/01/listaAsig.html
+            </guid>
+            <!-- 
+            <enclosure>
+                <source></source>
+                <url></url>
+            </enclosure>
+            -->
+        </item>
+        <item>
+            <title>Ud2.2 Listas</title>
+            <description>Listas anidadas con grid</description>
+            <link>https://alvarocalper.ieslossauces.es/ut2/02/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut2/02/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud2.3 Noticias</title>
+            <description>Noticias a nivel local,nacional e internacional</description>
+            <link>https://alvarocalper.ieslossauces.es/ut2/03/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut2/03/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud2.4 Horario</title>
+            <description>Horario de todas las asignaturas del curso</description>
+            <link>https://alvarocalper.ieslossauces.es/ut2/04/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut2/04/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud2.5 Formulario</title>
+            <description>Formulario sobre coches</description>
+            <link>https://alvarocalper.ieslossauces.es/ut2/05/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut2/05/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud2.6 Dado</title>
+            <description>Caras de un dado</description>
+            <link>https://alvarocalper.ieslossauces.es/ut2/06/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut2/06/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud2.7 Fonts</title>
+            <description>Dos tablas con grid y fuente distinta a la normal</description>
+            <link>https://alvarocalper.ieslossauces.es/ut2/07/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut2/07/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud2.8 Maquetación</title>
+            <description>Maquetación con grid inspirándose en la web de la DGT</description>
+            <link>https://alvarocalper.ieslossauces.es/ut2/08/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut2/08/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ex.1 Examen 1</title>
+            <description>Primer examen del curso, el único del primer trimestre</description>
+            <link>https://alvarocalper.ieslossauces.es/examen/01/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/examen/01/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud3.1 Práctica de JavaScript</title>
+            <description>Primera práctica de JavaScript de cambiar colores</description>
+            <link>https://alvarocalper.ieslossauces.es/ut3/01/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut3/01/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+    </channel>
+</rss>
