@@ -1,0 +1,46 @@
+footer a img{
+    width: 50px;
+}
+footer{
+    grid-column: 1/4;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+#vali,#nombre{
+    color: white;
+}
+h1{
+    text-align: center;
+    color: rgb(70, 70, 70);
+    border-bottom: 1px solid blue;
+}
+#contenedor{
+    text-align: center;
+    margin: 20px auto;
+    min-height: 50px;
+    padding: 0 20px;
+    /*display: flex;
+    align-items: center;*/
+}
+/*h2{
+    margin: 0 20px;
+    margin-right: 100px;
+}*/
+li{
+    margin-left: 2%;
+    margin-bottom: 1%;
+    width: fit-content;
+}
+ul{
+    margin-left: 47%;
+}
+#botones #bAñadir,#botones #bEliminar,#botones #bBorrar,#bAñadirP{
+    margin-bottom: 25%;
+    background-color: rgb(32, 167, 201);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}

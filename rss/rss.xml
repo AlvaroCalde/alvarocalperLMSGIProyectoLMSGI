@@ -210,5 +210,50 @@
                  </enclosure>
             -->  
         </item>
+        <item>
+            <title>Ud3.2 Mostrar/Ocultar imagen</title>
+            <description>Práctica de JavaScript de mostrar u ocultar una imagen pulsando un botón</description>
+            <link>https://alvarocalper.ieslossauces.es/ut3/02/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut3/02/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud3.3 Mostrar/Ocultar elementos de lista</title>
+            <description>Práctica de JavaScript de mostrar u ocultar los elementos de una lista pulsando un botón</description>
+            <link>https://alvarocalper.ieslossauces.es/ut3/03/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut3/03/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud3.4 Insertar/Borrar elementos de lista</title>
+            <description>Práctica de JavaScript de insertar o borrar los elementos de una lista pulsando un botón</description>
+            <link>https://alvarocalper.ieslossauces.es/ut3/04/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut3/04/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
     </channel>
 </rss>

@@ -1,0 +1,45 @@
+footer a img{
+    width: 50px;
+}
+footer{
+    grid-column: 1/4;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+#vali,#nombre{
+    color: white;
+}
+
+h1{
+    padding: 1%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: white;
+    background-color: rgb(52, 84, 158);
+}
+
+#botones{
+    margin-bottom: 5%;
+    margin-left: 48%;
+}
+
+#contenedor{
+    margin-left: 38.5%;
+    margin-bottom: 1%;
+}
+
+#boton{
+    color: white;
+    background-color: rgb(5, 92, 114);
+    padding: 0.7%;
+}
+
+.oculto{
+    display: none;
+}
+
+.imagen-estilo{
+    display: block;
+}
