@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "01.dtd">
 <libros>
-    <libro idlibro="l1">
+    <libro>
+        <idlibro>l1</idlibro>
         <isbn></isbn>
         <titulo>Titulo 1</titulo>
         <genero>genero1</genero>
@@ -11,11 +13,14 @@
             <autor>Nombre 2</autor>
         </autores>
     </libro>
-    <libro idlibro="l2">
+    <libro>
+        <idlibro>l2</idlibro>
         <isbn></isbn>
         <titulo>Titulo 2</titulo>
         <genero>genero1</genero>
         <genero>genero2</genero>
+        <volumenes>1</volumenes>
+        <volumenes>2</volumenes>
         <volumenes>3</volumenes>
         <autores>
             <autor>Nombre 1</autor>
