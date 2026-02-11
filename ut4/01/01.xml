@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro idlibro="l1">
+        <isbn></isbn>
+        <titulo>Titulo 1</titulo>
+        <genero>genero1</genero>
+        <genero>genero2</genero>
+        <volumenes/>
+        <autores>
+            <autor>Nombre 1</autor>
+            <autor>Nombre 2</autor>
+        </autores>
+    </libro>
+    <libro idlibro="l2">
+        <isbn></isbn>
+        <titulo>Titulo 2</titulo>
+        <genero>genero1</genero>
+        <genero>genero2</genero>
+        <volumenes>3</volumenes>
+        <autores>
+            <autor>Nombre 1</autor>
+            <autor>Nombre 2</autor>
+        </autores>
+    </libro>
+</libros>

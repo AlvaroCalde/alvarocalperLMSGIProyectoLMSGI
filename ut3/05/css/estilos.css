@@ -1,0 +1,64 @@
+footer a img{
+    width: 50px;
+}
+footer{
+    grid-column: 1/4;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+#vali,#nombre{
+    color: white;
+}
+
+.oculto{
+    visibility: hidden;
+}
+
+.contTabla{
+    text-align: center;
+    margin: 0 auto;
+}
+
+table{
+    width: auto;
+    height: auto;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+
+th,td{
+    padding: 15px;
+}
+
+tr:first-child{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    color: rgb(70, 70, 70);
+}
+#bEliminar, #bCrear{
+    margin-bottom: 25%;
+    background-color: rgb(32, 167, 201);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#contenedor{
+    text-align: center;
+}
+
+#botones{
+    margin-top: 5%;
+    margin-left: 46%;
+}

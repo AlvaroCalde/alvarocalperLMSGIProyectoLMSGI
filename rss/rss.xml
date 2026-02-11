@@ -255,5 +255,35 @@
                  </enclosure>
             -->  
         </item>
+        <item>
+            <title>Ud3.5 Generar tabla</title>
+            <description>Práctica de JavaScript de generar una tabla especificando filas y columnas</description>
+            <link>https://alvarocalper.ieslossauces.es/ut3/05/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut3/05/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud3.6 Generar imágenes</title>
+            <description>Práctica de JavaScript de generar una tabla especificando filas y columnas que contiene imágenes aleatorias</description>
+            <link>https://alvarocalper.ieslossauces.es/ut3/06/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut3/06/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
     </channel>
 </rss>

@@ -1,28 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ut3.3 Álvaro Calderón</title>
+    <title>Ut3.5 Álvaro Calderón</title>
     <script src="./script/script.js" defer></script>
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="icon" type="image/jpg" href="/webroot/favicon/logo_BC.jpg">
 </head>
 <body>
-    <header><h1>Ut3.3 Marcar desmarcar elementos al hacer clic</h1></header>
-    <div class="contenedor">
-        <h2>Lista de elementos</h2>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
-        <button id="boton">Ocultar</button>    
+    <header><h1>Ut3.5 Generar tablas</h1></header>
+    
+    <div id="contenedor">
+        <div id="contenedorInput">
+            <label for="inputCol">Número de columnas</label>
+            <input type="text" id="inputCol" value="1" min="1">
+            <label for="inputFil">Número de filas</label>
+            <input type="text" id="inputFil" value="1" min="1">
+        </div>
+        <h2>Tabla generada</h2>
+        <div class="contTabla"> 
+            <table id="tabla">
+                <tbody></tbody>
+            </table>   
+        </div>  
+    </div>
+
+    <div id="mensajeError"></div>
+    
+
+    <div id="botones">
+        <button id="bEliminar">Borrar tabla</button>  
+        <button id="bCrear">Crear tabla</button>  
+    </div>
+    
+   
     </div>
     <footer>
         <address>2025-26 IES Los Sauces <a href="/index.html#3" id="nombre">Álvaro Calderón Pérez</a> . Todos los derechos reservados.</address>
         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2Fut3%2F03%2Findex.html" id="vali">Web validada</a>
-        <p>Última vez modificado:<time datetime="2026-01-26">2026-01-26</time></p>
+        <p>Última vez modificado:<time datetime="2026-02-08">2026-02-08</time></p>
         <a href="https://github.com/AlvaroCalde/alvarocalperLMSGIProyectoLMSGI"><img src="/webroot/images/github.png" alt="enlace a github"></a>
         <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a>                         
     </footer>
