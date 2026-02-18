@@ -1,0 +1,19 @@
+<!ELEMENT mail (remitente,destinatarios,fechamensaje,asunto?,mensaje,ficheros_adjuntos*)>
+<!ELEMENT remitente (#PCDATA)>
+<!ELEMENT destinatarios (destinatario+)>
+<!ELEMENT fechamensaje (dia,mes,año)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT mensaje (p | h2 | ul)*>
+<!ELEMENT ficheros_adjuntos (fichero+)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT p (#PCDATA | strong)*>
+<!ELEMENT h2 (#PCDATA | strong)*>
+<!ELEMENT ul (li+)>
+<!ELEMENT fichero (nombre+,tipo+)>
+<!ELEMENT strong (#PCDATA)>
+<!ELEMENT li (#PCDATA | strong)*>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>

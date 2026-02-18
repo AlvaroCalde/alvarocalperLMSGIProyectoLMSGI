@@ -1,9 +1,15 @@
 <!ELEMENT libros (libro)+>
-<!ELEMENT libro (idlibro,isbn,titulo,genero*,volumenes+,autores)>
+<!ELEMENT libro (titulo,autores,año,genero+)>
 <!ELEMENT autores (autor+)>
-<!ELEMENT idlibro (#PCDATA)>
-<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT autor (nombre,apellido,nacionalidad)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT genero (#PCDATA)>
-<!ELEMENT volumenes (#PCDATA)>
-<!ELEMENT autor (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ATTLIST libro id ID #REQUIRED>
+<!ATTLIST libro genero CDATA #IMPLIED>
+<!ATTLIST libro idioma CDATA #FIXED "Español">
+<!ATTLIST libro formato (impreso | digital) #FIXED "impreso">
+<!ATTLIST libro referencia IDREF #IMPLIED>

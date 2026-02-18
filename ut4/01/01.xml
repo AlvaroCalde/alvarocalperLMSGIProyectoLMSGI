@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE libros SYSTEM "01.dtd">
 <libros>
-    <libro>
-        <idlibro>l1</idlibro>
-        <isbn></isbn>
+    <libro id="l1" genero="Comedia" idioma="Español" formato="impreso" referencia="l1">
         <titulo>Titulo 1</titulo>
-        <genero>genero1</genero>
-        <genero>genero2</genero>
-        <volumenes/>
         <autores>
-            <autor>Nombre 1</autor>
-            <autor>Nombre 2</autor>
+            <autor>
+                <nombre></nombre>
+                <apellido></apellido>
+                <nacionalidad></nacionalidad>
+            </autor>
         </autores>
+        <año>2025</año>
+        <genero>genero1</genero>
+        <genero>genero2</genero>    
     </libro>
-    <libro>
-        <idlibro>l2</idlibro>
-        <isbn></isbn>
-        <titulo>Titulo 2</titulo>
-        <genero>genero1</genero>
-        <genero>genero2</genero>
-        <volumenes>1</volumenes>
-        <volumenes>2</volumenes>
-        <volumenes>3</volumenes>
+    <libro id="l2" genero="Comedia" idioma="Español" formato="impreso" referencia="l2">
+        <titulo>Titulo 1</titulo>
         <autores>
-            <autor>Nombre 1</autor>
-            <autor>Nombre 2</autor>
+        <autor>
+            <nombre></nombre>
+            <apellido></apellido>
+            <nacionalidad></nacionalidad>
+        </autor>
         </autores>
+        <año>2026</año>
+        <genero>genero1</genero>
+        <genero>genero2</genero>    
     </libro>
 </libros>
