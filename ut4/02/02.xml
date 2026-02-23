@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mail SYSTEM "02.dtd">
-<mail>
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="02.xsd">
     <remitente>peper@gmail.com</remitente>
     <destinatarios>
         <destinatario>maria@gmail.com</destinatario>
@@ -19,11 +19,11 @@
         <p> 
             Querido/a <strong>compañero/a</strong> : 
         </p>
-        <p> Nos complace invitarle a compartir una noche especial en nuestra <strong/> Cena de
-            Navidad<strong/>, que se celebrará en el encantador <strong>Parador de Benavente</strong>. 
+        <p> Nos complace invitarle a compartir una noche especial en nuestra <strong> Cena de
+            Navidad</strong>, que se celebrará en el encantador <strong>Parador de Benavente</strong>. 
         </p>
         <h2>
-            <strong>Detalles del Evento:</strong>
+            Detalles del Evento:
         </h2>
         <ul>
             <li>

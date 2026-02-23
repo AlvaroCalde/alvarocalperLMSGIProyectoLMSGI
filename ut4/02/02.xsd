@@ -1,0 +1,78 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mail">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="remitente" type="xs:string"/>
+
+                <xs:element name="destinatarios">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="destinatario" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="fechamensaje">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia" type="xs:int"/>
+                            <xs:element name="mes" type="xs:int"/>
+                            <xs:element name="año" type="xs:gYear"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+                <xs:element name="asunto" type="xs:string" maxOccurs="1" minOccurs="0"/>
+                
+                <xs:element name="mensaje">
+                    <xs:complexType>
+                        <xs:choice maxOccurs="unbounded">
+                            
+                            <xs:element name="p" minOccurs="0">
+                                <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                        <xs:element name="strong" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="h2" type="xs:string"/>
+
+                            <xs:element name="ul">
+                                <xs:complexType>
+                                    <xs:choice maxOccurs="unbounded">
+                                        <xs:element name="li">
+                                            <xs:complexType mixed="true">
+                                                <xs:all>
+                                                    <xs:element name="strong" type="xs:string" minOccurs="0"/>
+                                                </xs:all>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>  
+                
+                <xs:element name="ficheros_adjuntos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="fichero" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string" maxOccurs="unbounded"/>
+                                        <xs:element name="tipo" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>
