@@ -1,0 +1,5 @@
+<!ELEMENT grupo (estudiante+)>
+<!ATTLIST estudiante idest ID #REQUIRED
+                    tutor1 IDREF #IMPLIED
+                    tutor2 IDREF #IMPLIED>
+<!ELEMENT estudiante (#PCDATA)>

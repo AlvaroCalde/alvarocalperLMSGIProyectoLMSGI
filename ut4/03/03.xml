@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilos.css" type="text/css"?>
+<!DOCTYPE programming-languages SYSTEM "03.dtd">
+<programming-languages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="03.xsd">
+    <lenguaje name="Python">
+            <descripcion>Python es un lenguaje de programación interpretado, de alto nivel y de propósito general.</descripcion>
+            <example>
+            <![CDATA[
+        def saludo():
+            print("¡Hola, Mundo!")
+        
+        saludo()
+                ]]>
+            </example>
+    </lenguaje>
+    <lenguaje name="javaScript">
+        <descripcion>JavaScript es un lenguaje de programación que se utiliza para crear contenido dinámico en la web.</descripcion>
+        <example>
+        <![CDATA[
+        function saludo() {
+            alert("¡Hola, Mundo!");
+        }
+        
+        saludo();
+        ]]>
+        </example>
+    </lenguaje>
+    <lenguaje name="java">
+        <descripcion>Java es un lenguaje de programación que es ampliamente utilizado en aplicaciones empresariales y móviles.</descripcion>
+        <example>
+           <![CDATA[
+    public class HolaMundo{
+        public static void main(String[]  args){
+            System.out.println("HolaMundo");
+        }
+    }
+                 ]]>
+        </example>
+    </lenguaje>
+    <lenguaje name="C">
+        <descripcion>C++ es un lenguaje de programación conocido por su eficiencia y uso en aplicaciones de alto rendimiento.</descripcion>
+        <example>
+        <![CDATA[
+        #include <iostream>
+        using namespace std;
+        
+        int main() {
+        cout << "¡Hola, Mundo!" << endl;
+        return 0;
+        }
+                ]]>
+        </example>
+    </lenguaje>
+    <lenguaje name="Ruby">
+        <descripcion>Ruby es un lenguaje de programación dinámico y de alto nivel, conocido por su sintaxis simple y elegante.</descripcion>
+        <example>
+        <![CDATA[
+        def saludo
+        puts "¡Hola, Mundo!"
+        end
+                ]]>
+        </example>
+    </lenguaje>
+</programming-languages>

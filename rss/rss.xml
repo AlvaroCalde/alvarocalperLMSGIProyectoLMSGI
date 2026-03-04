@@ -285,5 +285,50 @@
                  </enclosure>
             -->  
         </item>
+        <item>
+            <title>Ud4.1 Libros</title>
+            <description>Práctica de XML sobre libros validado con dtd y xsd</description>
+            <link>https://alvarocalper.ieslossauces.es/ut4/01/01.xml</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut4/01/01.xml
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud4.2 Email</title>
+            <description>Práctica de XML sobre libros validado con dtd y xsd</description>
+            <link>https://alvarocalper.ieslossauces.es/ut4/02/02.xml</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut4/02/02.xml
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud4.3 Lenguajes de programación</title>
+            <description>Práctica de XML sobre lenguajes de programación validado con dtd y xsd</description>
+            <link>https://alvarocalper.ieslossauces.es/ut4/03/03.xml</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/ut4/03/03.xml
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
     </channel>
 </rss>
