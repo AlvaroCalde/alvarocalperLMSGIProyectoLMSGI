@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE libros SYSTEM "01.dtd">
-<libros>
-    <libro id="l1" genero="Comedia" idioma="Español" formato="impreso" referencia="l1">
+<!DOCTYPE biblioteca SYSTEM "01.dtd">
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="01.xsd">
+    <libro id="l1" genero="Comedia" idioma="Español" formato="impreso">
         <titulo>Titulo 1</titulo>
         <autores>
             <autor>
@@ -10,11 +10,9 @@
                 <nacionalidad></nacionalidad>
             </autor>
         </autores>
-        <año>2025</año>
-        <genero>genero1</genero>
-        <genero>genero2</genero>    
+        <año>2025</año>    
     </libro>
-    <libro id="l2" genero="Comedia" idioma="Español" formato="impreso" referencia="l2">
+    <libro id="l2" genero="Comedia" idioma="Español" formato="impreso">
         <titulo>Titulo 1</titulo>
         <autores>
         <autor>
@@ -23,8 +21,6 @@
             <nacionalidad></nacionalidad>
         </autor>
         </autores>
-        <año>2026</año>
-        <genero>genero1</genero>
-        <genero>genero2</genero>    
+        <año>2026</año>  
     </libro>
-</libros>
+</biblioteca>

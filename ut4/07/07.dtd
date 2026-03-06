@@ -1,0 +1,23 @@
+<!ELEMENT festival (info, patrocinadores, bandas)>
+<!ATTLIST festival xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT info (warning,ubicacion, capacidad, website)>
+<!ELEMENT warning (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT patrocinadores (patrocinadorPrincipal | coPatrocinadores)>
+<!ELEMENT patrocinadorPrincipal (#PCDATA)>
+<!ELEMENT coPatrocinadores (#PCDATA)>
+<!ELEMENT bandas (banda+)>
+<!ELEMENT banda (nombre, genero, miembros, actuacion, merchandising?)>
+<!ATTLIST banda id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT miembros (#PCDATA)>
+<!ELEMENT actuacion EMPTY>
+<!ATTLIST actuacion 
+    escenario CDATA #REQUIRED
+    hora CDATA #REQUIRED>
+
+<!ELEMENT merchandising (#PCDATA)>

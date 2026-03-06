@@ -1,0 +1,26 @@
+footer a img{
+    width: 50px;
+}
+footer{
+    grid-column: 1/4;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+}
+#nombre{
+    color: white;
+}
+
+.ver{
+    display: block;
+    margin: 10px;
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ver summary{
+    text-align: center;
+}

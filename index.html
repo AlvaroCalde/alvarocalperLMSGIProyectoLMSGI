@@ -6,10 +6,24 @@
     <title>LMSGI- Álvaro Calderón Pérez</title>
     <link rel="icon" type="image/jpg" href="/webroot/favicon/logo_BC.jpg">
     <link rel="stylesheet" href="/webroot/CSS/estilos2.css">
+    <style>
+        #flecha {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        #flecha img {
+            width: 60px;
+            border-radius: 50%;
+            box-shadow:20px rgb(0, 0, 0);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <p>ÁLVARO CALDERÓN PÉREZ</p>
+        <p id="inicio">ÁLVARO CALDERÓN PÉREZ</p>
         <nav>
             <ul>
                 <li><a href="#1">Unidad 1</a></li>
@@ -24,6 +38,9 @@
         </nav>
     </header>
     <main>
+        <a href="#inicio" id="flecha" title="Volver al inicio">
+            <img src="/webroot/images/flecha_arriba.jpg">
+        </a>
         <section>
             <h1>Unidad 1</h1>
             <div class="UD1" id="1"> 
@@ -119,22 +136,39 @@
             <h1>Unidad 4</h1>
             <div class="UD4" id="4"> 
                 <div>
-                    <a href="/ut4/01/01.xml">
-                    <img src="/webroot/images/ut4-1.png" alt="ut4 01"></a>
+                    <a href="/ut4/01/ver.php">
+                    <img src="/webroot/images/ut4-todos.png" alt="ut4 01"></a>
                     <p>01</p>
-                    <button id="bDTD1"><a href="/ut4/01/01.dtd">01.dtd</a></button>  
                 </div>
                 <div>
-                    <a href="/ut4/02/02.xml">
-                    <img src="/webroot/images/ut4-2.png" alt="ut4 02"></a>
+                    <a href="/ut4/02/ver.php">
+                    <img src="/webroot/images/ut4-todo2.png" alt="ut4 02"></a>
                     <p>02</p>
-                    <button id="bDTD2"><a href="/ut4/02/02.dtd">02.dtd</a></button>   
-                    <button id="bXSD2"><a href="/ut4/02/02.xsd" target="_blank">02.xsd</a></button>  
                 </div>
                 <div>
-                    <a href="/error/error.html">
-                    <img src="/webroot/images/prox.jpg" alt="ut4 03"></a>
+                    <a href="/ut4/03/ver.php">
+                    <img src="/webroot/images/ut4-todo3.png" alt="ut4 03"></a>
                     <p>03</p>
+                </div>
+                <div>
+                    <a href="/ut4/04/ver.php">
+                    <img src="/webroot/images/ut4-todo4.png" alt="ut4 04"></a>
+                    <p>04</p>
+                </div>
+                <div>
+                    <a href="/ut4/05/ver.php">
+                    <img src="/webroot/images/ut4-todo5.png" alt="ut4 05"></a>
+                    <p>05</p>
+                </div>
+                <div>
+                    <a href="/ut4/06/ver.php">
+                    <img src="/webroot/images/ut4-todo6.png" alt="ut4 06"></a>
+                    <p>06</p>
+                </div>
+                <div>
+                    <a href="/ut4/07/ver.php">
+                    <img src="/webroot/images/ut4-todo7.png" alt="ut4 07"></a>
+                    <p>07</p>
                 </div>
             </div>
         </section>
@@ -222,7 +256,7 @@
     <footer>
         <address>2025-26 IES Los Sauces Álvaro Calderón Pérez. Todos los derechos reservados.</address>
         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2F" id="vali">Web validada</a>
-        <p>Última vez modificado:<time datetime="2026-02-18">2026-02-18</time></p>
+        <p>Última vez modificado:<time datetime="2026-03-05">2026-03-05</time></p>
         <a href="https://github.com/AlvaroCalde/alvarocalperLMSGIProyectoLMSGI"><img src="/webroot/images/github.png" alt="enlace a github"></a>
         <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a>   
         <a type="application/rss" href="/rss/rss.xml">

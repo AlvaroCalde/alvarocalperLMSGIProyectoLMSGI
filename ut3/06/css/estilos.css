@@ -1,0 +1,91 @@
+footer a img{
+    width: 50px;
+}
+footer{
+    grid-column: 1/4;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+#vali,#nombre{
+    color: white;
+}
+
+.oculto{
+    visibility: hidden;
+}
+
+h1{
+    text-align: center;
+    color: rgb(70, 70, 70);
+}
+
+#bBorrar, #bCrear{
+    margin-bottom: 25%;
+    margin-top: 5%;
+    background-color: rgb(32, 167, 201);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#bBorrar:hover{
+    background-color: rgb(31, 129, 153);
+}
+
+#bCrear:hover{
+    background-color: rgb(31, 129, 153);
+}
+
+#contenedor{
+    text-align: center;
+}
+
+#botones{
+    margin-top: 5%;
+    margin-left: 46.5%;
+}
+
+.vuelta {
+    transform: rotateY(180deg);
+    background-image: none !important; 
+    background-color: #808080; 
+}
+
+.carta {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s;
+    transform-style: preserve-3d;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+}

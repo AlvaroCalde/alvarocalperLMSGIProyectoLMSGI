@@ -82,19 +82,16 @@ ul li a{
     color: white;
     text-decoration: none;
 }
-#bDTD1,#bDTD2,#bXSD2{
-    max-width: 50px;
-    padding: 5px;
-    margin: 0 auto;
-    background-color: black;
+
+#flecha {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
-#bDTD2,#bXSD2{
-    margin-bottom: 2px;
-}
-#bDTD1 a,#bDTD2 a,#bXSD2 a{
-    color: white;
-    text-decoration: none;
-}
-#bDTD1:hover,#bDTD2:hover,#bXSD2:hover{
-    background-color: gray;
+
+#flecha img {
+  width: 60px;
+  border-radius: 50%;
+  box-shadow:20px rgb(0, 0, 0);
 }

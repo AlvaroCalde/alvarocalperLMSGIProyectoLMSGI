@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum_vitae SYSTEM "04.dtd">
+<curriculum_vitae xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="04.xsd">
+    
+    <datos_personales>
+        <nombre>Daniel</nombre>
+        <apellidos>Carvajal Parera</apellidos>
+        <año_nacimiento>1992</año_nacimiento>
+        <residencia>
+            <ciudad>Benavente</ciudad>
+            <pais>España</pais>
+        </residencia>
+    </datos_personales>
+
+    <contacto>
+        <telefono>+34 600 123 456</telefono>
+        <correo>dani.balón_D'or@gmail.com</correo>
+        <linkedin>https://www.linkedin.com/in/danicarvajalparera</linkedin>
+    </contacto>
+
+    <descripcion_perfil>
+        Profesional altamente motivado con más de 5 años de experiencia en el sector tecnológico. Especializado en la gestión de proyectos ágiles y el desarrollo de soluciones de software eficientes. Enfocado en la resolución de problemas y el trabajo en equipo multidisciplinar.
+    </descripcion_perfil>
+
+    <competencias>
+        <competencia>
+            <nombre>Gestión de Proyectos (Agile/Scrum)</nombre>
+            <nivel>Avanzado</nivel>
+        </competencia>
+        <competencia>
+            <nombre>Desarrollo Web (HTML, CSS, JavaScript)</nombre>
+            <nivel>Intermedio</nivel>
+        </competencia>
+        <competencia>
+            <nombre>Inglés</nombre>
+            <nivel>C1 (Avanzado)</nivel>
+        </competencia>
+    </competencias>
+
+    <formacion>
+        <estudio>
+            <titulacion>Grado en Ingeniería Informática</titulacion>
+            <centro>Universidad de Salamanca</centro>
+            <año_finalizacion>2014</año_finalizacion>
+        </estudio>
+        <estudio>
+            <titulacion>Máster en Dirección de Proyectos</titulacion>
+            <centro>Escuela de Negocios Europea</centro>
+            <año_finalizacion>2016</año_finalizacion>
+        </estudio>
+    </formacion>
+
+    <experiencia>
+        <puesto_trabajo>
+            <puesto>Gestora de Proyectos IT</puesto>
+            <empresa>Tech Innovators S.L.</empresa>
+            <año_inicio>2018</año_inicio>
+            <año_fin>2023</año_fin>
+        </puesto_trabajo>
+        <puesto_trabajo>
+            <puesto>Desarrolladora Junior</puesto>
+            <empresa>Soluciones Digitales Globales</empresa>
+            <año_inicio>2015</año_inicio>
+            <año_fin>2018</año_fin>
+        </puesto_trabajo>
+    </experiencia>
+
+</curriculum_vitae>

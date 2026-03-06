@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE festival SYSTEM "07.dtd">
+<festival xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="07.xsd">  
+    <info>
+        <warning>Cualquier parecido con la realidad es pura coincidencia (esto no debería existir)</warning>
+        <ubicacion>Benavente, España</ubicacion>
+        <capacidad>50000</capacidad>
+        <website>www.rockfestbenavente.es</website>
+    </info>
+
+    <patrocinadores>
+        <patrocinadorPrincipal>Cervezas El Ebro</patrocinadorPrincipal>
+    </patrocinadores>
+
+    <bandas>
+        <banda id="BND-001">
+            <nombre>ElXokas y su basura</nombre>
+            <genero>Rock</genero>
+            <miembros>4</miembros>
+            <actuacion escenario="Iglesia del Carmen" hora="21:30:00"/>
+            <merchandising>Bolsas de basura</merchandising>
+        </banda>
+
+        <banda id="BND-002">
+            <nombre>Pereira</nombre>
+            <genero>Electronica</genero>
+            <miembros>1</miembros>
+            <actuacion escenario="La Mota" hora="18:00:00"/>
+            <merchandising>Castores con su cara</merchandising>
+        </banda>
+
+        <banda id="BND-003">
+            <nombre>Infarruco y Juan de Dios</nombre>
+            <genero>Flamenco</genero>
+            <miembros>2</miembros>
+            <actuacion escenario="Estadio Luciano Rubio" hora="20:00:00"/>
+            <merchandising>Castores con su cara</merchandising>
+        </banda>
+    </bandas>
+</festival>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:annotation>
+        <xs:documentation xml:lang="es">
+            Schema XML para la gestión de un Festival de Música.
+        </xs:documentation>
+    </xs:annotation>
+
+    <xs:simpleType name="TipoIdBanda">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="BND-[0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TipoMiembros">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="20"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TipoGenero">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Flamenco"/>
+            <xs:enumeration value="Rock"/>
+            <xs:enumeration value="Pop"/>
+            <xs:enumeration value="Metal"/>
+            <xs:enumeration value="Electronica"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="festival">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="info">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="warning" type="xs:string"/>
+                            <xs:element name="ubicacion" type="xs:string"/>
+                            <xs:element name="capacidad" type="xs:positiveInteger"/>
+                            <xs:element name="website" type="xs:string"/>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="patrocinadores">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="patrocinadorPrincipal" type="xs:string"/>
+                            <xs:element name="coPatrocinadores" type="xs:string"/>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="bandas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="banda" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="genero" type="TipoGenero"/>
+                                        <xs:element name="miembros" type="TipoMiembros"/>
+                                        
+                                        <xs:element name="actuacion">
+                                            <xs:complexType>
+                                                <xs:attribute name="escenario" type="xs:string" use="required"/>
+                                                <xs:attribute name="hora" type="xs:time" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        
+                                        <xs:element name="merchandising" type="xs:string" minOccurs="0"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="TipoIdBanda" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
