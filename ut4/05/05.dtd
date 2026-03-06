@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!ELEMENT estudiantes (estudiante+)>
 <!ATTLIST estudiantes xmlns:xsi CDATA #IMPLIED
                 xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
@@ -7,3 +8,10 @@
 <!ELEMENT estudiante (nombre, apellidos)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT apellidos (#PCDATA)>
+=======
+<!ELEMENT grupo (estudiante+)>
+<!ATTLIST estudiante idest ID #REQUIRED
+                    tutor1 IDREF #IMPLIED
+                    tutor2 IDREF #IMPLIED>
+<!ELEMENT estudiante (#PCDATA)>
+>>>>>>> 03ef643c807d157a3d0b1189b483273674c9bb55

@@ -330,6 +330,7 @@
                  </enclosure>
             -->  
         </item>
+<<<<<<< HEAD
         <item>
             <title>Ud4.4 Currículum</title>
             <description>Práctica de XML sobre un currículum validado con dtd y xsd</description>
@@ -390,5 +391,7 @@
                  </enclosure>
             -->  
         </item>
+=======
+>>>>>>> 03ef643c807d157a3d0b1189b483273674c9bb55
     </channel>
 </rss>
