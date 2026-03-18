@@ -16,6 +16,7 @@ footer{
 .ver{
     display: block;
     margin: 10px;
+    padding: 10px;
     border: 2px solid black;
     align-items: center;
     border-radius: 10px;
