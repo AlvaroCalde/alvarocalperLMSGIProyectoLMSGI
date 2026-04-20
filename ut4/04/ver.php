@@ -11,7 +11,7 @@ $xml = file_get_contents("04.xml");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../webroot/css/estilos.css">
     <title>Ut4.4 Álvaro Calderón</title>
-    <link rel="icon" type="image/jpg" href="/webroot/favicon/logo_BC.jpg">
+    <link rel="icon" type="image/jpg" href="/alvarocalperLMSGIProyectoLMSGI/webroot/favicon/logo_BC.jpg">
         <link rel="stylesheet" href="../01/css/estilos.css">
 </head>
 
@@ -39,11 +39,12 @@ $xml = file_get_contents("04.xml");
     </details>
 		
 	</main>
-	 <footer>
+	<footer>
         <address>2025-26 IES Los Sauces <a href="/index.html#4" id="nombre">Álvaro Calderón Pérez</a> . Todos los derechos reservados.</address>
-        <p>Última vez modificado:<time datetime="2026-03-04">2026-03-04</time></p>
-        <a href="https://github.com/AlvaroCalde/alvarocalperLMSGIProyectoLMSGI"><img src="/webroot/images/github.png" alt="enlace a github"></a>
-        <a href="https://www.orange.es"><img src="/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a>                         
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Falvarocalper.ieslossauces.es%2Fut2%2F01%2FlistaAsig.html" id="vali">Web validada</a>
+        <p>Última vez modificado:<time datetime="2026-04-09">2026-04-09</time></p>
+        <a href="https://github.com/AlvaroCalde/alvarocalperLMSGIProyectoLMSGI"><img src="/alvarocalperLMSGIProyectoLMSGI/webroot/images/github.png" alt="enlace a github"></a>
+        <a href="https://www.orange.es"><img src="/alvarocalperLMSGIProyectoLMSGI/webroot/images/casa_negra.png" alt="enlace a web de referencia"></a> 
     </footer>
 </body>
 

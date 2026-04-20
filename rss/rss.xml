@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <atom:link href="https://alvarocalper.ieslossauces.es/rss/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/rss/rss.xml" rel="self" type="application/rss+xml" />
         <title>ÁCP- LMSGI</title>
         <link>https://alvarocalper.ieslossauces.es/</link>
         <description><![CDATA[ Web de LMSGI de Álvaro Calderón Pérez]]></description>
@@ -33,10 +33,10 @@
         <item>
             <title>Ud1.1 Mapa conceptual</title>
             <description>Mapa conceptual de los lenguajes de marcas</description>
-            <link>https://alvarocalper.ieslossauces.es/ut1/01/Clasificaci%C3%B3n_de_los_lenguajes_de_marcas.png</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut1/01/Clasificaci%C3%B3n_de_los_lenguajes_de_marcas.png</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut1/01/Clasificaci%C3%B3n_de_los_lenguajes_de_marcas.png
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut1/01/Clasificaci%C3%B3n_de_los_lenguajes_de_marcas.png
             </guid>
             <!-- 
             <enclosure>
@@ -48,10 +48,10 @@
         <item>
             <title>Ud1.2 Lenguajes</title>
             <description>Ejemplos de distintos lenguajes de marcas</description>
-            <link>https://alvarocalper.ieslossauces.es/ut1/02/02(todo).txt</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut1/02/02(todo).txt</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut1/02/02(todo).txt
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut1/02/02(todo).txt
             </guid>
             <!-- 
             <enclosure>
@@ -63,10 +63,10 @@
         <item>
             <title>Ud2.1 Lista asignaturas</title>
             <description>Lista de asignaturas con grid</description>
-            <link>https://alvarocalper.ieslossauces.es/ut2/01/listaAsig.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/01/listaAsig.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut2/01/listaAsig.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/01/listaAsig.html
             </guid>
             <!-- 
             <enclosure>
@@ -78,10 +78,10 @@
         <item>
             <title>Ud2.2 Listas</title>
             <description>Listas anidadas con grid</description>
-            <link>https://alvarocalper.ieslossauces.es/ut2/02/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/02/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut2/02/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/02/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -93,10 +93,10 @@
         <item>
             <title>Ud2.3 Noticias</title>
             <description>Noticias a nivel local,nacional e internacional</description>
-            <link>https://alvarocalper.ieslossauces.es/ut2/03/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/03/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut2/03/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/03/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -108,10 +108,10 @@
         <item>
             <title>Ud2.4 Horario</title>
             <description>Horario de todas las asignaturas del curso</description>
-            <link>https://alvarocalper.ieslossauces.es/ut2/04/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/04/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut2/04/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/04/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -123,10 +123,10 @@
         <item>
             <title>Ud2.5 Formulario</title>
             <description>Formulario sobre coches</description>
-            <link>https://alvarocalper.ieslossauces.es/ut2/05/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/05/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut2/05/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/05/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -138,10 +138,10 @@
         <item>
             <title>Ud2.6 Dado</title>
             <description>Caras de un dado</description>
-            <link>https://alvarocalper.ieslossauces.es/ut2/06/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/06/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut2/06/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/06/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -153,10 +153,10 @@
         <item>
             <title>Ud2.7 Fonts</title>
             <description>Dos tablas con grid y fuente distinta a la normal</description>
-            <link>https://alvarocalper.ieslossauces.es/ut2/07/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/07/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut2/07/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/07/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -168,10 +168,10 @@
         <item>
             <title>Ud2.8 Maquetación</title>
             <description>Maquetación con grid inspirándose en la web de la DGT</description>
-            <link>https://alvarocalper.ieslossauces.es/ut2/08/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/08/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut2/08/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut2/08/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -183,10 +183,10 @@
         <item>
             <title>Ex.1 Examen 1</title>
             <description>Primer examen del curso, el único del primer trimestre</description>
-            <link>https://alvarocalper.ieslossauces.es/examen/01/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/examen/01/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/examen/01/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/examen/01/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -198,10 +198,10 @@
         <item>
             <title>Ud3.1 Práctica de JavaScript</title>
             <description>Primera práctica de JavaScript de cambiar colores</description>
-            <link>https://alvarocalper.ieslossauces.es/ut3/01/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/01/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut3/01/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/01/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -213,10 +213,10 @@
         <item>
             <title>Ud3.2 Mostrar/Ocultar imagen</title>
             <description>Práctica de JavaScript de mostrar u ocultar una imagen pulsando un botón</description>
-            <link>https://alvarocalper.ieslossauces.es/ut3/02/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/02/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut3/02/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/02/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -228,10 +228,10 @@
         <item>
             <title>Ud3.3 Mostrar/Ocultar elementos de lista</title>
             <description>Práctica de JavaScript de mostrar u ocultar los elementos de una lista pulsando un botón</description>
-            <link>https://alvarocalper.ieslossauces.es/ut3/03/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/03/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut3/03/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/03/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -243,10 +243,10 @@
         <item>
             <title>Ud3.4 Insertar/Borrar elementos de lista</title>
             <description>Práctica de JavaScript de insertar o borrar los elementos de una lista pulsando un botón</description>
-            <link>https://alvarocalper.ieslossauces.es/ut3/04/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/04/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut3/04/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/04/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -258,10 +258,10 @@
         <item>
             <title>Ud3.5 Generar tabla</title>
             <description>Práctica de JavaScript de generar una tabla especificando filas y columnas</description>
-            <link>https://alvarocalper.ieslossauces.es/ut3/05/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/05/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut3/05/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/05/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -273,10 +273,10 @@
         <item>
             <title>Ud3.6 Generar imágenes</title>
             <description>Práctica de JavaScript de generar una tabla especificando filas y columnas que contiene imágenes aleatorias</description>
-            <link>https://alvarocalper.ieslossauces.es/ut3/06/index.html</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/06/index.html</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut3/06/index.html
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut3/06/index.html
             </guid>
             <!-- 
                  <enclosure>
@@ -288,10 +288,10 @@
         <item>
             <title>Ud4.1 Libros</title>
             <description>Práctica de XML sobre libros validado con dtd y xsd</description>
-            <link>https://alvarocalper.ieslossauces.es/ut4/01/01.xml</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/01/01.xml</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut4/01/01.xml
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/01/01.xml
             </guid>
             <!-- 
                  <enclosure>
@@ -303,10 +303,10 @@
         <item>
             <title>Ud4.2 Email</title>
             <description>Práctica de XML sobre libros validado con dtd y xsd</description>
-            <link>https://alvarocalper.ieslossauces.es/ut4/02/02.xml</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/02/02.xml</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut4/02/02.xml
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/02/02.xml
             </guid>
             <!-- 
                  <enclosure>
@@ -318,10 +318,10 @@
         <item>
             <title>Ud4.3 Lenguajes de programación</title>
             <description>Práctica de XML sobre lenguajes de programación validado con dtd y xsd</description>
-            <link>https://alvarocalper.ieslossauces.es/ut4/03/03.xml</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/03/03.xml</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut4/03/03.xml
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/03/03.xml
             </guid>
             <!-- 
                  <enclosure>
@@ -330,14 +330,14 @@
                  </enclosure>
             -->  
         </item>
-<<<<<<< HEAD
+
         <item>
             <title>Ud4.4 Currículum</title>
             <description>Práctica de XML sobre un currículum validado con dtd y xsd</description>
-            <link>https://alvarocalper.ieslossauces.es/ut4/04/04.xml</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/04/04.xml</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut4/04/04.xml
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/04/04.xml
             </guid>
             <!-- 
                  <enclosure>
@@ -349,10 +349,10 @@
         <item>
             <title>Ud4.5 Estudiantes</title>
             <description>Práctica de XML sobre estudiantes validado con dtd y xsd</description>
-            <link>https://alvarocalper.ieslossauces.es/ut4/05/05.xml</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/05/05.xml</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut4/05/05.xml
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/05/05.xml
             </guid>
             <!-- 
                  <enclosure>
@@ -364,10 +364,10 @@
         <item>
             <title>Ud4.6 Lugares</title>
             <description>Práctica de XML sobre lugares validado con dtd y xsd</description>
-            <link>https://alvarocalper.ieslossauces.es/ut4/06/06.xml</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/06/06.xml</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut4/06/06.xml
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/06/06.xml
             </guid>
             <!-- 
                  <enclosure>
@@ -379,10 +379,10 @@
         <item>
             <title>Ud4.7 Festival</title>
             <description>Práctica de XML sobre un festival ficticio en Benavente validado con dtd y xsd</description>
-            <link>https://alvarocalper.ieslossauces.es/ut4/07/07.xml</link>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/07/07.xml</link>
             <guid>
                 <!-- Mismo valor que el link-->
-                https://alvarocalper.ieslossauces.es/ut4/07/07.xml
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut4/07/07.xml
             </guid>
             <!-- 
                  <enclosure>
@@ -391,7 +391,50 @@
                  </enclosure>
             -->  
         </item>
-=======
->>>>>>> 03ef643c807d157a3d0b1189b483273674c9bb55
+        <item>
+            <title>Examen 2º Evaluación</title>
+            <description>Examen 2º evaluación</description>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI//examen/02/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI//examen/02/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud5.1 XPath Actividades</title>
+            <description>Práctica de ejercicios de XPath sobre unas actividades</description>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut5/01/output/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut5/01/output/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
+        <item>
+            <title>Ud5.2 XPath Garaje</title>
+            <description>Práctica de ejercicios de XPath sobre un garaje</description>
+            <link>https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut5/02/output/index.html</link>
+            <guid>
+                <!-- Mismo valor que el link-->
+                https://alvarocalper.ieslossauces.es/alvarocalperLMSGIProyectoLMSGI/ut5/02/output/index.html
+            </guid>
+            <!-- 
+                 <enclosure>
+                 <source></source>
+                 <url></url>
+                 </enclosure>
+            -->  
+        </item>
     </channel>
 </rss>

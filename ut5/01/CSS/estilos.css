@@ -1,0 +1,56 @@
+footer a img{
+    width: 50px;
+}
+footer{
+    grid-column: 1/4;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+}
+#nombre{
+    color: white;
+}
+
+#vali{
+    color: white;
+}
+
+h1,h2{
+    text-align: center;
+    color: rgb(70, 70, 70);
+    border-bottom: 1px solid black;
+}
+
+#ta{
+    width: 100%;
+    white-space: pre-wrap;
+}
+
+div{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+}
+code{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+pre{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+pre #solu{
+    background: transparent;
+    padding: 0;
+}
+
