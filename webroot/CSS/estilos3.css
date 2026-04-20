@@ -8,6 +8,7 @@ header{
     text-align: center;
     padding: 40px;
     font-weight: bolder;
+    margin-bottom: 5%;
 }
 div{
     outline: 2px solid transparent;
@@ -51,6 +52,10 @@ footer{
     color: white;
     background-color: black;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 #vali{
     color: white;
