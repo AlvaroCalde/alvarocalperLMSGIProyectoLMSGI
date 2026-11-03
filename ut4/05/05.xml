@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE estudiantes SYSTEM "05.dtd">
+<estudiantes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="05.xsd">
+    <estudiante idest="E1">
+        <nombre>Daniel</nombre>
+        <apellidos>Carvajal</apellidos>
+    </estudiante>
+    <estudiante idest="E2" tutor1="E1">
+        <nombre>Javier</nombre>
+        <apellidos>Ontiveros</apellidos>
+    </estudiante>
+    <estudiante idest="E3" tutor1="E1" tutor2="E2">
+        <nombre>Isi</nombre>
+        <apellidos>Palazón</apellidos>
+    </estudiante>
+</estudiantes>

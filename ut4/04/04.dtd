@@ -1,0 +1,29 @@
+<!ELEMENT curriculum_vitae (datos_personales, contacto, descripcion_perfil, competencias, formacion, experiencia)>
+<!ATTLIST curriculum_vitae xmlns:xsi CDATA #IMPLIED
+                xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT datos_personales (nombre, apellidos, año_nacimiento, residencia)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT año_nacimiento (#PCDATA)>
+<!ELEMENT residencia (ciudad, pais)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT contacto (telefono, correo, linkedin)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT linkedin (#PCDATA)>
+<!ELEMENT descripcion_perfil (#PCDATA)>
+<!ELEMENT competencias (competencia+)>
+<!ELEMENT competencia (nombre, nivel)>
+<!ELEMENT nivel (#PCDATA)>
+<!ELEMENT formacion (estudio+)>
+<!ELEMENT estudio (titulacion, centro, año_finalizacion)>
+<!ELEMENT titulacion (#PCDATA)>
+<!ELEMENT centro (#PCDATA)>
+<!ELEMENT año_finalizacion (#PCDATA)>
+<!ELEMENT experiencia (puesto_trabajo*)>
+<!ELEMENT puesto_trabajo (puesto, empresa, año_inicio, año_fin)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT año_inicio (#PCDATA)>
+<!ELEMENT año_fin (#PCDATA)>

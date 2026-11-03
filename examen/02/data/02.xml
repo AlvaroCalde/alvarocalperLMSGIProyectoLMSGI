@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tarjetaVisita SYSTEM "02.dtd">
+<tarjetaVisita id="tv001" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="02.xsd">
+    <nombre>xxxxx</nombre>
+    <cargo>xxxxxx</cargo>
+    <empresa>xxxxxxx</empresa>
+    <logo  formato="png" descripcion=""></logo>
+    <web>
+
+    </web>
+    <redes>
+        <linkedin></linkedin>
+        <otro tipo="psa"></otro>
+    </redes>
+
+</tarjetaVisita>

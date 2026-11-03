@@ -1,5 +1,7 @@
-<!ELEMENT libros (libro)+>
-<!ELEMENT libro (titulo,autores,año,genero+)>
+<!ELEMENT biblioteca (libro)+>
+<!ATTLIST biblioteca xmlns:xsi CDATA #IMPLIED
+                xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT libro (titulo,autores,año)>
 <!ELEMENT autores (autor+)>
 <!ELEMENT autor (nombre,apellido,nacionalidad)>
 <!ELEMENT titulo (#PCDATA)>
@@ -10,6 +12,6 @@
 <!ELEMENT nacionalidad (#PCDATA)>
 <!ATTLIST libro id ID #REQUIRED>
 <!ATTLIST libro genero CDATA #IMPLIED>
-<!ATTLIST libro idioma CDATA #FIXED "Español">
-<!ATTLIST libro formato (impreso | digital) #FIXED "impreso">
+<!ATTLIST libro idioma CDATA  #IMPLIED >
+<!ATTLIST libro formato (impreso|digital) "impreso">
 <!ATTLIST libro referencia IDREF #IMPLIED>

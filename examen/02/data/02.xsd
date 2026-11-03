@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- ===========================================
+     Schema XML para tarjeta de visita
+     Versión: 1.0
+     =========================================== -->
+
+
+    <xs:element name="tarjetaVisita">
+        <xs:complexType>
+           <xs:all>
+                <xs:element name="nombre" type="xs:string" maxOccurs="1"/>
+                <xs:element name="cargo" type="xs:string" maxOccurs="1"/>
+                <xs:element name="empresa" type="xs:string" maxOccurs="1"/>
+                <xs:element name="logo" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:attribute name="formato" default="png">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="png"/>
+                                    <xs:enumeration value="jpg"/>
+                                    <xs:enumeration value="svg"/>
+                                    <xs:enumeration value="webp"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="descripcion" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="web" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="redes" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="linkedin" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="otro" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:attribute name="tipo" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+           </xs:all>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:attribute name="version" type="xs:string" default="1.0"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
